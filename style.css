@@ -52,13 +52,16 @@ text-align: center;
     text-align: center;
 }
 .searchForm {
+    align-items: center;
     display: flex;
     gap: 0.75rem;
     margin: 2rem 0;
 }
 
-.searchForm input {
+.cityInput {
     flex: 1;
+     width: 90%;
+  max-width: 400px;
     padding: 1rem;
     border: none;
     border-radius: 16px;
@@ -68,16 +71,16 @@ text-align: center;
     background: rgba(255, 255, 255, 0.12);
     transition: all 0.3s ease;
 }
-.searchForm input:hover {
+.cityInput:hover {
     background: rgba(255, 255, 255, 0.18);
     transform: translateY(-2px);
 }
 
-.searchForm input:focus {
+..cityInput:focus {
     background: rgba(255, 255, 255, 0.22);
     box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.35);
 }
-.searchForm input::placeholder{
+.cityInput::placeholder{
     color: #cbd5e1;
 }
 .submit{
@@ -154,59 +157,4 @@ text-align: center;
     color: white;
     font-size: 1.1rem;
     font-weight: 600;
-}
-@media (max-width: 768px) {
-
-  .weather-container {
-    width: 90%;
-    padding: 20px;
-  }
-
-  .mainNav h1 {
-    font-size: 2rem;
-  }
-
-  .mainNav p {
-    font-size: 0.9rem;
-  }
-
-  .searchForm {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .cityInput {
-    width: 100%;
-    font-size: 1rem;
-  }
-
-  .submit {
-    width: 100%;
-    padding: 12px;
-  }
-
-  .hero-weather {
-    margin-top: 30px;
-  }
-
-  .temperature {
-    font-size: 3rem;
-  }
-
-  .cityName {
-    font-size: 1.5rem;
-  }
-
-  .description {
-    font-size: 1rem;
-  }
-
-  .weather-features {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .weather-card {
-    width: 100%;
-  }
 }
