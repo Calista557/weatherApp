@@ -39,7 +39,8 @@ body::after {
 }
 
 .weather-container {
-    width: min(850px, 90%);
+  max-width: 480px;
+  width: 90%;
     min-height: 520px;
     padding: 2.5rem;
     border-radius: 32px;
@@ -159,54 +160,3 @@ body::after {
 }
 
 
-/* MOBILE */
-@media (max-width: 768px) {
-
-    body {
-        overflow: auto;
-        padding: 10px;
-    }
-
-    .weather-container {
-        width: 100%;
-        min-height: auto;
-        padding: 1.2rem;
-        border-radius: 24px;
-    }
-
-    .mainNav h1 {
-        font-size: 1.7rem;
-    }
-
-    .searchForm {
-        flex-direction: column;
-        margin: 1.2rem 0;
-        gap: 10px;
-    }
-
-    .cityInput,
-    .submit {
-        width: 100%;
-    }
-
-    .hero-weather {
-        margin-bottom: 1.2rem;
-    }
-
-    .hero-weather h2 {
-        font-size: 3rem;
-    }
-
-    .hero-weather h3 {
-        font-size: 1.2rem;
-    }
-
-    .weather-features {
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }
-
-    .weather-card {
-        padding: 0.8rem;
-    }
-}
