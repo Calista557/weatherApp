@@ -155,3 +155,58 @@ text-align: center;
     font-size: 1.1rem;
     font-weight: 600;
 }
+@media (max-width: 768px) {
+
+  .weather-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .mainNav h1 {
+    font-size: 2rem;
+  }
+
+  .mainNav p {
+    font-size: 0.9rem;
+  }
+
+  .searchForm {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cityInput {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .submit {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .hero-weather {
+    margin-top: 30px;
+  }
+
+  .temperature {
+    font-size: 3rem;
+  }
+
+  .cityName {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .weather-features {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .weather-card {
+    width: 100%;
+  }
+}
