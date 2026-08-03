@@ -101,7 +101,7 @@ text-align: center;
 }
 
 .weather-container {
-    width: min(380px, 100%);
+    width: min(650px, 90%);
     padding: 2rem;
     border-radius: 32px;
     background: rgba(255, 255, 255, 0.08);
@@ -157,4 +157,59 @@ text-align: center;
     color: white;
     font-size: 1.1rem;
     font-weight: 600;
+}
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+  }
+
+  .weather-container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .mainNav {
+    margin-bottom: 15px;
+  }
+
+  .mainNav h1 {
+    font-size: 1.8rem;
+  }
+
+  .mainNav p {
+    margin-top: 5px;
+  }
+
+  .searchForm {
+    margin: 15px 0;
+    gap: 8px;
+  }
+
+  .hero-weather {
+    margin: 15px 0;
+  }
+
+  .temperature {
+    font-size: 2.8rem;
+    margin: 5px 0;
+  }
+
+  .cityName {
+    margin: 5px 0;
+  }
+
+  .description {
+    margin: 5px 0;
+  }
+
+  .weather-features {
+    margin-top: 15px;
+    gap: 10px;
+  }
+
+  .weather-card {
+    padding: 12px;
+  }
+
 }
