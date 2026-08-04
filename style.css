@@ -249,6 +249,9 @@ body::after {
 
 
 @media (max-width: 420px) {
+    body {
+    padding-inline: 12px;
+  }
   .hero-weather::before {
     width: 170px;
     height: 170px;
