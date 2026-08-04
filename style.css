@@ -1,17 +1,12 @@
-/* ==========================================================================
-   Aura Weather — stylesheet (your palette)
-   Palette:  #0f1020 (deep navy bg)  #7c3aed (aura violet)
-             #06b6d4 (aura cyan)     #ffffff (bright text)
-             #cbd5e1 (muted slate text)
-   Font:     "Poppins"
-   ========================================================================== */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
 }
 
 body {
